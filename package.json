@@ -1,0 +1,36 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Assignment to learn basic http protocol and server setup",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5jasonc/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "introduction",
+    "assignment"
+  ],
+  "author": "Jason Streeter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5jasonc/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/5jasonc/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
